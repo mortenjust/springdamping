@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C80662D41AB3FF440028DB24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80662D31AB3FF440028DB24 /* AppDelegate.swift */; };
+		C80662D61AB3FF440028DB24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80662D51AB3FF440028DB24 /* ViewController.swift */; };
+		C80662D91AB3FF440028DB24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80662D71AB3FF440028DB24 /* Main.storyboard */; };
+		C80662DB1AB3FF440028DB24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C80662DA1AB3FF440028DB24 /* Images.xcassets */; };
+		C80662DE1AB3FF440028DB24 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C80662DC1AB3FF440028DB24 /* LaunchScreen.xib */; };
+		C80662EA1AB3FF450028DB24 /* springanddampingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80662E91AB3FF450028DB24 /* springanddampingTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C80662E41AB3FF450028DB24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C80662C61AB3FF440028DB24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C80662CD1AB3FF440028DB24;
+			remoteInfo = springanddamping;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C80662CE1AB3FF440028DB24 /* springanddamping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = springanddamping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80662D21AB3FF440028DB24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C80662D31AB3FF440028DB24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C80662D51AB3FF440028DB24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C80662D81AB3FF440028DB24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C80662DA1AB3FF440028DB24 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C80662DD1AB3FF440028DB24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C80662E31AB3FF450028DB24 /* springanddampingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = springanddampingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80662E81AB3FF450028DB24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C80662E91AB3FF450028DB24 /* springanddampingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = springanddampingTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C80662CB1AB3FF440028DB24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80662E01AB3FF450028DB24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C80662C51AB3FF440028DB24 = {
+			isa = PBXGroup;
+			children = (
+				C80662D01AB3FF440028DB24 /* springanddamping */,
+				C80662E61AB3FF450028DB24 /* springanddampingTests */,
+				C80662CF1AB3FF440028DB24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C80662CF1AB3FF440028DB24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C80662CE1AB3FF440028DB24 /* springanddamping.app */,
+				C80662E31AB3FF450028DB24 /* springanddampingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C80662D01AB3FF440028DB24 /* springanddamping */ = {
+			isa = PBXGroup;
+			children = (
+				C80662D31AB3FF440028DB24 /* AppDelegate.swift */,
+				C80662D51AB3FF440028DB24 /* ViewController.swift */,
+				C80662D71AB3FF440028DB24 /* Main.storyboard */,
+				C80662DA1AB3FF440028DB24 /* Images.xcassets */,
+				C80662DC1AB3FF440028DB24 /* LaunchScreen.xib */,
+				C80662D11AB3FF440028DB24 /* Supporting Files */,
+			);
+			path = springanddamping;
+			sourceTree = "<group>";
+		};
+		C80662D11AB3FF440028DB24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C80662D21AB3FF440028DB24 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C80662E61AB3FF450028DB24 /* springanddampingTests */ = {
+			isa = PBXGroup;
+			children = (
+				C80662E91AB3FF450028DB24 /* springanddampingTests.swift */,
+				C80662E71AB3FF450028DB24 /* Supporting Files */,
+			);
+			path = springanddampingTests;
+			sourceTree = "<group>";
+		};
+		C80662E71AB3FF450028DB24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C80662E81AB3FF450028DB24 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C80662CD1AB3FF440028DB24 /* springanddamping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C80662ED1AB3FF450028DB24 /* Build configuration list for PBXNativeTarget "springanddamping" */;
+			buildPhases = (
+				C80662CA1AB3FF440028DB24 /* Sources */,
+				C80662CB1AB3FF440028DB24 /* Frameworks */,
+				C80662CC1AB3FF440028DB24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = springanddamping;
+			productName = springanddamping;
+			productReference = C80662CE1AB3FF440028DB24 /* springanddamping.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C80662E21AB3FF450028DB24 /* springanddampingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C80662F01AB3FF450028DB24 /* Build configuration list for PBXNativeTarget "springanddampingTests" */;
+			buildPhases = (
+				C80662DF1AB3FF450028DB24 /* Sources */,
+				C80662E01AB3FF450028DB24 /* Frameworks */,
+				C80662E11AB3FF450028DB24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C80662E51AB3FF450028DB24 /* PBXTargetDependency */,
+			);
+			name = springanddampingTests;
+			productName = springanddampingTests;
+			productReference = C80662E31AB3FF450028DB24 /* springanddampingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C80662C61AB3FF440028DB24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Morten Just Petersen";
+				TargetAttributes = {
+					C80662CD1AB3FF440028DB24 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					C80662E21AB3FF450028DB24 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = C80662CD1AB3FF440028DB24;
+					};
+				};
+			};
+			buildConfigurationList = C80662C91AB3FF440028DB24 /* Build configuration list for PBXProject "springanddamping" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C80662C51AB3FF440028DB24;
+			productRefGroup = C80662CF1AB3FF440028DB24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C80662CD1AB3FF440028DB24 /* springanddamping */,
+				C80662E21AB3FF450028DB24 /* springanddampingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C80662CC1AB3FF440028DB24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80662D91AB3FF440028DB24 /* Main.storyboard in Resources */,
+				C80662DE1AB3FF440028DB24 /* LaunchScreen.xib in Resources */,
+				C80662DB1AB3FF440028DB24 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80662E11AB3FF450028DB24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C80662CA1AB3FF440028DB24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80662D61AB3FF440028DB24 /* ViewController.swift in Sources */,
+				C80662D41AB3FF440028DB24 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80662DF1AB3FF450028DB24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80662EA1AB3FF450028DB24 /* springanddampingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C80662E51AB3FF450028DB24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C80662CD1AB3FF440028DB24 /* springanddamping */;
+			targetProxy = C80662E41AB3FF450028DB24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C80662D71AB3FF440028DB24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C80662D81AB3FF440028DB24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C80662DC1AB3FF440028DB24 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C80662DD1AB3FF440028DB24 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C80662EB1AB3FF450028DB24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C80662EC1AB3FF450028DB24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C80662EE1AB3FF450028DB24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = springanddamping/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C80662EF1AB3FF450028DB24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = springanddamping/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C80662F11AB3FF450028DB24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = springanddampingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/springanddamping.app/springanddamping";
+			};
+			name = Debug;
+		};
+		C80662F21AB3FF450028DB24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = springanddampingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/springanddamping.app/springanddamping";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C80662C91AB3FF440028DB24 /* Build configuration list for PBXProject "springanddamping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80662EB1AB3FF450028DB24 /* Debug */,
+				C80662EC1AB3FF450028DB24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C80662ED1AB3FF450028DB24 /* Build configuration list for PBXNativeTarget "springanddamping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80662EE1AB3FF450028DB24 /* Debug */,
+				C80662EF1AB3FF450028DB24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C80662F01AB3FF450028DB24 /* Build configuration list for PBXNativeTarget "springanddampingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80662F11AB3FF450028DB24 /* Debug */,
+				C80662F21AB3FF450028DB24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C80662C61AB3FF440028DB24 /* Project object */;
+}
